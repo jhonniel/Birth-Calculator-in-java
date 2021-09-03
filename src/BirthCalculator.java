@@ -6,8 +6,9 @@ import java.util.Scanner;
 public class BirthCalculator {
 	 
 public static void main(String[] args){
+   //package file to get the time
    GregorianCalendar time = new GregorianCalendar();
-	   int hour = time.get(Calendar.HOUR_OF_DAY);
+   int hour = time.get(Calendar.HOUR_OF_DAY);
 		   
 	   
 //input 	   
